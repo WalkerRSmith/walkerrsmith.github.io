@@ -1,3 +1,38 @@
 body {
+	font-family: helvetica;
+}
+
+#bighead {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.matlist {
+	padding: 15px;
+	margin: 25px;
+	border: 1px solid;
 	background-color: blue;
+}
+
+.hydrotable {
+	background-image: url(corn.jpeg);
+}
+
+.fonttrial {
+	font-family: Impact, Charcoal, sans-serif;
+	background-color: red;
+	text-align: center;
+}
+
+a:visited {
+	color: green;
+}
+
+a {
+	color: hotpink;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: hotpink;
+  }
 }
